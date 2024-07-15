@@ -1,6 +1,6 @@
+import { lusitana } from '@/app/ui/fonts';
 import { clsx } from 'clsx';
 import Link from 'next/link';
-import { lusitana } from '@/app/ui/fonts';
 
 interface Breadcrumb {
   label: string;
@@ -9,8 +9,8 @@ interface Breadcrumb {
 }
 
 export default function Breadcrumbs({
-  breadcrumbs,
-}: {
+                                      breadcrumbs,
+                                    }: {
   breadcrumbs: Breadcrumb[];
 }) {
   return (
